@@ -1,0 +1,16 @@
+{
+  "name": "novatai-math-bot",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-20",
+  "kv_namespaces": [
+    {
+      "binding": "DATA",
+      "id": "ce6d90e1ce3d4e4e8bba3902a55ddd85"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "0 3 * * *"
+    ]
+  }
+}
